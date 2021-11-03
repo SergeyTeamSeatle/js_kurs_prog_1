@@ -28,7 +28,9 @@ class Flower extends Base {
             }
         }
     }
-
+    setPrice(newPrice){
+        this.price=newPrice
+    }
     getHolidayId(name) {
         for (let i = 0; i < this.forHoliday.length; i++) {
             if (this.forHoliday[i] === name) {
@@ -38,6 +40,4 @@ class Flower extends Base {
     }
 
 }
-
-
 module.exports = Flower

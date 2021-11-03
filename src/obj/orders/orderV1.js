@@ -12,7 +12,7 @@ class OrderV1 extends Base{
     }
 
     getType(){
-        return
+        return  this.type
     }
 
 
